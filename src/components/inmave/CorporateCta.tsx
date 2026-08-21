@@ -4,7 +4,7 @@ import lab from "@/assets/prod-lab.jpg";
 export function CorporateCta() {
   return (
     <section className="bg-background pb-24 lg:pb-32">
-      <div className="mx-auto max-w-[1600px] px-6 lg:px-12">
+      <div className="mx-auto max-w-[1240px] px-6 lg:px-12">
         <div className="grid gap-12 rounded-3xl border border-border card-gradient p-8 lg:grid-cols-2 lg:items-center lg:p-16">
           <div>
             <span className="section-label">Oferta corporativa</span>

@@ -32,7 +32,7 @@ const faqs = [
 export function Faq() {
   return (
     <section id="soporte" className="bg-background py-24 lg:py-32">
-      <div className="mx-auto grid max-w-[1500px] gap-14 px-6 lg:grid-cols-[0.85fr_1.15fr] lg:px-12">
+      <div className="mx-auto grid max-w-[1240px] gap-14 px-6 lg:grid-cols-[0.85fr_1.15fr] lg:px-12">
         <div>
           <span className="section-label">Soporte</span>
           <h2 className="mt-8 font-display text-[clamp(2rem,3.6vw,3.2rem)] font-semibold leading-[1.12] tracking-tight">

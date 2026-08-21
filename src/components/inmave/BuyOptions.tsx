@@ -22,7 +22,7 @@ const options = [
 export function BuyOptions() {
   return (
     <section id="adquiere" className="bg-background py-24 lg:py-32">
-      <div className="mx-auto grid max-w-[1600px] gap-14 px-6 lg:grid-cols-2 lg:px-12">
+      <div className="mx-auto grid max-w-[1240px] gap-14 px-6 lg:grid-cols-2 lg:px-12">
         <div>
           <span className="section-label">Adquiere nuestros productos</span>
           <h2 className="mt-8 font-display text-[clamp(2.2rem,4.4vw,3.7rem)] font-semibold leading-[1.12] tracking-tight">
