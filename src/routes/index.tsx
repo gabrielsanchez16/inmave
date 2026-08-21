@@ -1,24 +1,49 @@
 import { createFileRoute } from "@tanstack/react-router";
+import { Navbar } from "@/components/inmave/Navbar";
+import { Hero } from "@/components/inmave/Hero";
+import { About } from "@/components/inmave/About";
+import { Categories } from "@/components/inmave/Categories";
+import { BuyOptions } from "@/components/inmave/BuyOptions";
+import { FeaturedProducts } from "@/components/inmave/FeaturedProducts";
+import { Faq } from "@/components/inmave/Faq";
+import { CorporateCta } from "@/components/inmave/CorporateCta";
 
-// No head() here: the home route inherits title/description/og/twitter from
-// __root.tsx, and ships no og:image so serve-time hosting can inject the
-// project's social preview (explicit og:image or latest screenshot).
 export const Route = createFileRoute("/")({
+  head: () => ({
+    meta: [
+      { title: "INMAVE | Insumos y Equipos Médicos Certificados" },
+      {
+        name: "description",
+        content:
+          "INMAVE distribuye equipos e insumos médicos, hospitalarios, estéticos y farmacéuticos certificados en toda Colombia, con asesoría técnica y soporte post-venta.",
+      },
+      {
+        property: "og:title",
+        content: "INMAVE | Insumos y Equipos Médicos Certificados",
+      },
+      {
+        property: "og:description",
+        content:
+          "Equipos e insumos médicos de alta precisión para clínicas, hospitales, centros estéticos y farmacias.",
+      },
+    ],
+  }),
   component: Index,
 });
 
-// IMPORTANT: Replace this placeholder. See ./README.md for routing conventions.
 function Index() {
   return (
-    <div
-      className="flex min-h-screen items-center justify-center"
-      style={{ backgroundColor: "#fcfbf8" }}
-    >
-      <img
-        data-lovable-blank-page-placeholder="REMOVE_THIS"
-        src="https://cdn.gpteng.co/blank-app-v1.svg"
-        alt="Your app will live here!"
-      />
+    <div className="min-h-screen bg-background">
+      <Navbar />
+      <main>
+        <Hero />
+        <About />
+        <Categories />
+        <BuyOptions />
+        <FeaturedProducts />
+        <Faq />
+        <CorporateCta />
+      </main>
     </div>
   );
 }
