@@ -20,7 +20,7 @@ export function Hero() {
       <div className="absolute inset-0 bg-[linear-gradient(90deg,var(--surface)_28%,transparent_72%)] hidden lg:block" />
       <div className="absolute inset-0 hero-glow" />
 
-      <div className="relative mx-auto max-w-[1600px] px-6 pb-16 pt-16 lg:px-12 lg:pb-24 lg:pt-24">
+      <div className="relative mx-auto max-w-[1240px] px-6 pb-16 pt-16 lg:px-12 lg:pb-24 lg:pt-24">
         <span className="inline-flex items-center gap-2 rounded-full border border-primary/40 px-4 py-2 text-sm font-medium text-primary">
           <span className="h-1.5 w-1.5 rounded-full bg-primary" />
           Insumos Médicos Certificados

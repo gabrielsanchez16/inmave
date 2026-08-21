@@ -23,7 +23,7 @@ const badges = [
 export function About() {
   return (
     <section id="nosotros" className="bg-background py-24 lg:py-32">
-      <div className="mx-auto grid max-w-[1600px] gap-14 px-6 lg:grid-cols-2 lg:px-12">
+      <div className="mx-auto grid max-w-[1240px] gap-14 px-6 lg:grid-cols-2 lg:px-12">
         <div>
           <span className="section-label">Sobre nosotros</span>
           <h2 className="mt-8 font-display text-[clamp(2.1rem,4vw,3.4rem)] font-semibold leading-[1.12] tracking-tight">

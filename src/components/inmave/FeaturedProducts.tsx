@@ -38,7 +38,7 @@ const products = [
 export function FeaturedProducts() {
   return (
     <section id="tienda" className="bg-background py-24 lg:py-32">
-      <div className="mx-auto max-w-[1600px] px-6 lg:px-12">
+      <div className="mx-auto max-w-[1240px] px-6 lg:px-12">
         <div className="flex flex-wrap items-end justify-between gap-6">
           <div>
             <span className="section-label">Tienda</span>

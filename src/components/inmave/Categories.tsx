@@ -38,7 +38,7 @@ const categories = [
 export function Categories() {
   return (
     <section id="productos" className="bg-background py-24 lg:py-32">
-      <div className="mx-auto max-w-[1600px] px-6 lg:px-12">
+      <div className="mx-auto max-w-[1240px] px-6 lg:px-12">
         <div className="text-center">
           <span className="section-label">Nuestros productos</span>
           <h2 className="mx-auto mt-8 max-w-4xl font-display text-[clamp(2.2rem,4.6vw,4rem)] font-semibold leading-[1.12] tracking-tight">
