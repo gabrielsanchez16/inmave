@@ -45,6 +45,7 @@ function Index() {
         <Faq />
         <CorporateCta />
       </main>
+      <Footer />
     </div>
   );
 }
