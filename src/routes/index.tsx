@@ -7,6 +7,7 @@ import { BuyOptions } from "@/components/inmave/BuyOptions";
 import { FeaturedProducts } from "@/components/inmave/FeaturedProducts";
 import { Faq } from "@/components/inmave/Faq";
 import { CorporateCta } from "@/components/inmave/CorporateCta";
+import { Footer } from "@/components/inmave/Footer";
 
 export const Route = createFileRoute("/")({
   head: () => ({
